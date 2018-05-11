@@ -3,6 +3,8 @@ package basicsolutionsoftware.com.emvdecriptclip
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.os.CountDownTimer
+import org.jetbrains.anko.intentFor
+import org.jetbrains.anko.singleTop
 
 class SplashActivity : AppCompatActivity() {
 
@@ -20,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-
+                startActivity(intentFor<MainDecodeActivity>().singleTop())
             }
         }.start()
     }
