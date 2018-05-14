@@ -19,6 +19,10 @@
         </activity>
         <activity android:name=".MainDecodeActivity"
                   android:screenOrientation="portrait" />
+        <activity android:name=".EasyWayActivity"
+                  android:screenOrientation="portrait" />
+        <activity android:name=".HardWayActivity"
+                  android:screenOrientation="portrait" />
     </application>
 
 </manifest>

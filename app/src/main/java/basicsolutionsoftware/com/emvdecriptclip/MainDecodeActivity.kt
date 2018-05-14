@@ -16,7 +16,7 @@ class MainDecodeActivity : AppCompatActivity() {
 
     fun setCardActions(){
         easy_way.setOnClickListener { startActivity(intentFor<EasyWayActivity>().singleTop()) }
-        //hard_way.setOnClickListener { startActivity(intentFor<HardWayActivity>().singleTop()) }
+        hard_way.setOnClickListener { startActivity(intentFor<HardWayActivity>().singleTop()) }
     }
 
 }

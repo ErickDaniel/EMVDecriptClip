@@ -23,6 +23,7 @@ class SplashActivity : AppCompatActivity() {
 
             override fun onFinish() {
                 startActivity(intentFor<MainDecodeActivity>().singleTop())
+                finish()
             }
         }.start()
     }
